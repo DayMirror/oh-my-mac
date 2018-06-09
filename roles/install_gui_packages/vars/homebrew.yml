@@ -1,7 +1,0 @@
-___
-gui_packages:
-  - name: ITerm2
-    description: Better terminal.
-    site: https://www.iterm2.com
-    id: iterm2
-...
