@@ -1,0 +1,13 @@
+---
+- name: "Adding tap '{{ item.tap }}' for the package '{{ item.name }}'"
+  homebrew_tap:
+    name: "{{ item.tap }}"
+    state: present
+  with_items: "{{ cli_packages }}"
+  when: item.tap is defined
+- name: "Installing package '{{ item.name }}' ({{ item.description | default('') }})"
+  package:
+    name: "{{ item.id }}"
+    state: latest
+  with_items: "{{ cli_packages }}"
+...

@@ -1,0 +1,110 @@
+---
+cli_packages:
+  - name: Git
+    description: The best version control system.
+    id: git
+  - name: Git Extras
+    desctiption: A pack of handful additional commands for git.
+    site: https://github.com/tj/git-extras
+    id: git-extras
+  - name: Tig
+    dedscription: NCurses-based text-mode interface for git.
+    site: https://jonas.github.io/tig
+    id: tig
+  - name: The Silver Searcher
+    description: Great thing for searching stuff in the command line.
+    site: https://github.com/ggreer/the_silver_searcher
+    id: the_silver_searcher
+  - name: Tmux
+    description: Standard terminal multiplexer
+    site: https://github.com/tmux/tmux
+    id: tmux
+  - name: Autojump
+    description: Faster way of navigating the file system.
+    site: https://github.com/wting/autojump
+    id: autojump
+  - name: CLOC
+    description: Tool to count lines of code.
+    site: https://github.com/AlDanial/cloc
+    id: cloc
+  - name: HTOP
+    description: An interactive process viewer for Unix.
+    site: https://github.com/hishamhm/htop
+    id: htop
+  - name: Ranger
+    description: Console file manager with Vi key bindings.
+    site: https://github.com/ranger/ranger
+    id: ranger
+  - name: GNU Wget
+    description: Free utility for non-interactive download of files from the Web.
+    site: https://github.com/jay/wget
+    id: wget
+  - name: Zsh
+    description: Better shell for Unix.
+    site: http://zsh.sourceforge.net/Arc/git.html
+    id: zsh
+  - name: CMake
+    description: Cross-platform and open-source build system generator.
+    site: https://gitlab.kitware.com/cmake/cmake
+    id: cmake
+  - name: GNU Compilers Collection
+    description: Standard GNU compilers package.
+    site: https://gcc.gnu.org/svn.html
+    id: gcc
+  - name: JRE & JDK
+    description: Java Oracle Runtime and development kit
+    site: http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
+    id: java
+  - name: Maven
+    description: Maven is standard build and dependency manager for Java projects.
+    site: http://maven.apache.org/
+    id: maven
+  - name: Gradle
+    description: Standard build system for android projects.
+    site: https://gradle.org
+    id: gradle
+  - name: Node.js
+    description: Web development framework.
+    site: https://nodejs.org
+    id: node
+  - name: Rcm
+    description: Dotfiles management tool from Thoughtbot.
+    site: https://github.com/thoughtbot/rcm
+    id: rcm
+  - name: Docker
+    description: Containerization framework for Unix platforms.
+    site: https://github.com/docker/docker-ce
+    id: docker
+  - name: NeoVim
+    description: Vim with async plugins execution.
+    site: https://neovim.io
+    id: neovim
+  - name: JQ
+    description: Command-line JSON parser.
+    site: https://github.com/stedolan/jq
+    id: jq
+  - name: Direnv
+    description: Tool for autoloading environment variables when cd'ing into a folder.
+    site: https://direnv.net/
+    id: direnv
+  - name: Tree
+    description: Tool able to show directory tree structure in the shell.
+    site: http://mama.indstate.edu/users/ice/tree/
+    id: tree
+  - name: SSH-Copy-ID
+    description: Tool to easily install ssh key into a remote machine.
+    site: https://linux.die.net/man/1/ssh-copy-id
+    id: ssh-copy-id
+  - name: FZF
+    description: Command-line fuzzy finder.
+    site: https://github.com/junegunn/fzf
+    id: fzf
+  - name: Mosh
+    description: More robust and responsive replacement for SSH.
+    site: https://github.com/mobile-shell/mosh
+    id: mosh
+  - name: Md5 And SHA sum tools
+    description: Package that adds commands 'md5sum' and 'sha1sum'.
+    site: http://www.microbrew.org/tools/md5sha1sum/
+    id: md5sha1sum
+...
