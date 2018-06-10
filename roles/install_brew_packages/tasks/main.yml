@@ -19,6 +19,7 @@
       - htop # An interactive process viewer for Unix, better than top
       - ranger # Console file manager with Vi key bindings
       - zsh
+      - rmtrash # Command-line tool to move files and folders to trash
       - neovim # Vim with async plugins execution
       - rcm # Dotfiles management tool from Thoughtbot
       - direnv # Tool for autoloading environment variables when cd'ing into a folder
