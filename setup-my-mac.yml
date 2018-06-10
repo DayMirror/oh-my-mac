@@ -29,6 +29,9 @@
       - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
     homebrew_cask_apps:
       - visual-studio-code
+      - sourcetree
+      - google-chrome
+      - android-sdk
   roles:
     - geerlingguy.homebrew
 ...
