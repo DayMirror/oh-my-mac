@@ -1,37 +1,6 @@
 ---
 - hosts: localhost
   connection: local
-  vars:
-    homebrew_taps:
-      - homebrew/core
-      - homebrew/cask
-      - thoughtbot/formulae # rcm
-    homebrew_installed_packages:
-      - git
-      - git-extras # A pack of handful additional commands for git
-      - tig # NCurses-based text-mode interface for git
-      - the_silver_searcher # A code searching tool similar to ack, with a focus on speed
-      - tmux
-      - cloc # Tool to count lines of code
-      - autojump
-      - htop # An interactive process viewer for Unix, better than top
-      - ranger # Console file manager with Vi key bindings
-      - zsh
-      - neovim # Vim with async plugins execution
-      - rcm # Dotfiles management tool from Thoughtbot
-      - direnv # Tool for autoloading environment variables when cd'ing into a folder
-      - jq # Command-line JSON parser
-      - tree # Tool able to show directory tree structure in the shell
-      - ssh-copy-id
-      - fzf # Command-line fuzzy finder
-      - mosh # More robust and responsive replacement for SSH
-      - wget
-      - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
-    homebrew_cask_apps:
-      - visual-studio-code
-      - sourcetree
-      - google-chrome
-      - android-sdk
   roles:
-    - geerlingguy.homebrew
+    - install_packages
 ...
