@@ -7,6 +7,7 @@
       - homebrew/core
       - homebrew/cask
       - thoughtbot/formulae # rcm
+      - wooga/unityversions # unity
     homebrew_installed_packages:
       - git
       - git-extras # A pack of handful additional commands for git
@@ -28,9 +29,22 @@
       - mosh # More robust and responsive replacement for SSH
       - wget
       - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
+      - node
+      - ruby
+      - groovy
+      - python@2
+      - java
+      - cmake
+      - ant
+      - maven
+      - gradle
+      - cocoapods
     homebrew_cask_apps:
+      - iterm2
       - visual-studio-code
       - sourcetree
       - google-chrome
-      - android-sdk
+      - cahrles # HTTP proxy and monitor
+      - android-studio
+      - unity@2018.1.0f2
 ...

@@ -2,5 +2,5 @@
 - hosts: localhost
   connection: local
   roles:
-    - install_packages
+    - install_brew_packages
 ...
