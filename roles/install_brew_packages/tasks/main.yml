@@ -7,6 +7,7 @@
       - homebrew/core
       - homebrew/cask
       - thoughtbot/formulae # rcm
+      - homebrew/cask-fonts # powerline and nerd fonts
       - wooga/unityversions # unity
     homebrew_installed_packages:
       - git
@@ -19,6 +20,7 @@
       - htop # An interactive process viewer for Unix, better than top
       - ranger # Console file manager with Vi key bindings
       - zsh
+      - zplug # plugins manager for zsh
       - rmtrash # Command-line tool to move files and folders to trash
       - neovim # Vim with async plugins execution
       - rcm # Dotfiles management tool from Thoughtbot
@@ -30,6 +32,7 @@
       - mosh # More robust and responsive replacement for SSH
       - wget
       - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
+      - font
       - node
       - ruby
       - groovy
@@ -41,11 +44,12 @@
       - gradle
       - cocoapods
     homebrew_cask_apps:
+      - font-inconsolatago-nerd-font # patched font
       - iterm2
       - visual-studio-code
       - sourcetree
       - google-chrome
-      - cahrles # HTTP proxy and monitor
+      - charles # HTTP proxy and monitor
       - android-studio
       - unity@2018.1.0f2
 ...
