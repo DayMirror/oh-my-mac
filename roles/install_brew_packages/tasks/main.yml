@@ -13,6 +13,7 @@
       - git
       - git-extras # A pack of handful additional commands for git
       - tig # NCurses-based text-mode interface for git
+      - ack # better searching tool than grep
       - the_silver_searcher # A code searching tool similar to ack, with a focus on speed
       - tmux
       - cloc # Tool to count lines of code
@@ -32,6 +33,7 @@
       - mosh # More robust and responsive replacement for SSH
       - wget
       - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
+      - gpg2
       - font
       - node
       - ruby
