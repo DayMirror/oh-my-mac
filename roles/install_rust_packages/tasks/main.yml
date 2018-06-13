@@ -1,0 +1,7 @@
+- name: Installing Rust packages
+  include_role:
+    name: fubarhouse.rust
+  vars:
+    rust_update: true
+    cargo_items:
+      - hyperfine # command-line benchmarking tool

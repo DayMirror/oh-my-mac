@@ -29,6 +29,7 @@
       - jq # Command-line JSON parser
       - tree # Tool able to show directory tree structure in the shell
       - ssh-copy-id
+      - fd # simpler and faster alternative to find command
       - fzf # Command-line fuzzy finder
       - mosh # More robust and responsive replacement for SSH
       - wget
@@ -37,6 +38,7 @@
       - font
       - node
       - ruby
+      - rust
       - groovy
       - python@2
       - java
