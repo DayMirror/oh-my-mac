@@ -1,15 +1,3 @@
 ---
-- name: Downloading powerline fonts
-  git:
-    repo: https://github.com/powerline/fonts.git
-    dest: ~/powerline-fonts
-    depth: 1
-- name: Installing powerline fonts
-  shell: install.sh
-  args:
-    chdir: ~/powerline-fonts
-- name: Removing powerline fonts repo
-  file:
-    path: ~/powerline-fonts
-    state: absent
+
 ...

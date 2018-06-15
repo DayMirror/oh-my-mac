@@ -1,0 +1,12 @@
+---
+- name: "Installing '{{ item.name }}' node package"
+  npm:
+    name: {{ item }}
+    state: latest
+    global: yes
+  with_items:
+    - typescript
+    - pm2 # process management and load-balancing tool to run node.js server
+    - jshint # detect errors and problems in js code
+    - nodemon # monitors for changes in js code and restarts the server
+...
