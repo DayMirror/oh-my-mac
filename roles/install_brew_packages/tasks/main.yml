@@ -34,6 +34,7 @@
       - mosh # More robust and responsive replacement for SSH
       - wget
       - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
+      - reattach-to-user-namespace # enables pbcopy and pbpaste in tmux
       - gpg2
       - font
       - node
