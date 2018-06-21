@@ -1,0 +1,11 @@
+---
+- name: Cloning dotfiles repository
+  git:
+    repo: git@github.com:DayMirror/dotfiles.git
+    dest: ~/.dotfiles
+    depth: 1
+- name: Setting up dotfiles
+  shell: rcup -v
+- name: Setting zsh as default shell
+  shell: chsh -s $(which zsh)
+...
