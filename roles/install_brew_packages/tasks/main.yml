@@ -50,6 +50,7 @@
       - gradle
       - cocoapods
       - docker
+      - mono # mono runtime support (c#)
     homebrew_cask_apps:
       - font-inconsolatago-nerd-font # patched font
       - iterm2
