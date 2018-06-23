@@ -58,4 +58,7 @@
       - charles # HTTP proxy and monitor
       - android-studio
       - unity@2018.1.0f2
+- name: Installing docker-machine
+  include_role:
+    name: giovtorres.docker-machine
 ...
