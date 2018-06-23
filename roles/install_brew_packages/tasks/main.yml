@@ -24,6 +24,7 @@
       - zplug # plugins manager for zsh
       - rmtrash # Command-line tool to move files and folders to trash
       - neovim # Vim with async plugins execution
+      - macvim # vim for mac
       - rcm # Dotfiles management tool from Thoughtbot
       - direnv # Tool for autoloading environment variables when cd'ing into a folder
       - jq # Command-line JSON parser
