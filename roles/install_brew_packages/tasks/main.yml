@@ -54,6 +54,7 @@
     homebrew_cask_apps:
       - font-inconsolatago-nerd-font # patched font
       - iterm2
+      - oni # new editor aiming to take the best from vim and vscode
       - visual-studio-code
       - sourcetree
       - google-chrome
