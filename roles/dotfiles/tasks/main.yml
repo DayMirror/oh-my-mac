@@ -1,11 +1,15 @@
 ---
-- name: Cloning dotfiles repository
+- name: Cloning dotfiles
   git:
     repo: git@github.com:DayMirror/dotfiles.git
     dest: ~/.dotfiles
-    depth: 1
-- name: Setting up dotfiles
+- name: Setting up dotfiles links
   shell: rcup -v
 - name: Setting zsh as default shell
   shell: chsh -s $(which zsh)
+- name: Installing tmux plugins manager
+  git:
+    repo: https://github.com/tmux-plugins/tpm
+    dest: ~/.tmux/plugins/tpm
+    depth: 1
 ...
