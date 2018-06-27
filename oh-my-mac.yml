@@ -5,5 +5,6 @@
     - install_brew_packages
     - install_rust_packages
     - install_node_packages
+    - install_gem_packages
     - dotfiles
 ...
