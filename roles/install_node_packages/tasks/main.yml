@@ -12,4 +12,5 @@
     - trash-cli # put files and folders in trash instead of permanently removing
     - david # tells when dependencies are out of date
     - ntl # interactive cli menu to list and run npm tasks
+    - http-server # simple server usefule for testing
 ...
