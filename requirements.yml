@@ -7,4 +7,6 @@
   name: install-crates
 - src: git@github.com:DayMirror/ansible-role-install-gems.git
   name: install-gems
+- src: git@github.com:DayMirror/ansible-role-install-dmg.git
+  name: install-dmg
 ...
