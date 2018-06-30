@@ -1,0 +1,60 @@
+---
+taps:
+  - homebrew/core
+  - homebrew/cask
+  - thoughtbot/formulae # rcm
+  - homebrew/cask-fonts # powerline and nerd fonts
+  - wooga/unityversions # unity
+brews:
+  - git
+  - git-extras # A pack of handful additional commands for git
+  - tig # NCurses-based text-mode interface for git
+  - ack # better searching tool than grep
+  - the_silver_searcher # A code searching tool similar to ack, with a focus on speed
+  - tmux
+  - cloc # Tool to count lines of code
+  - autojump
+  - htop # An interactive process viewer for Unix, better than top
+  - ranger # Console file manager with Vi key bindings
+  - zsh
+  - zplug # plugins manager for zsh
+  - rmtrash # Command-line tool to move files and folders to trash
+  - neovim # Vim with async plugins execution
+  - macvim # vim for mac
+  - rcm # Dotfiles management tool from Thoughtbot
+  - direnv # Tool for autoloading environment variables when cd'ing into a folder
+  - jq # Command-line JSON parser
+  - tree # Tool able to show directory tree structure in the shell
+  - ssh-copy-id
+  - fd # simpler and faster alternative to find command
+  - fzf # Command-line fuzzy finder
+  - mosh # More robust and responsive replacement for SSH
+  - wget
+  - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
+  - reattach-to-user-namespace # enables pbcopy and pbpaste in tmux
+  - gpg2
+  - font
+  - node
+  - ruby
+  - rust
+  - groovy
+  - python@2
+  - java
+  - cmake
+  - ant
+  - maven
+  - gradle
+  - cocoapods
+  - docker
+  - mono # mono runtime support (c#)
+casks:
+  - font-inconsolatago-nerd-font # patched font
+  - iterm2
+  - oni # new editor aiming to take the best from vim and vscode
+  - visual-studio-code
+  - sourcetree
+  - google-chrome
+  - charles # HTTP proxy and monitor
+  - android-studio
+  - unity@2018.1.0f2
+...

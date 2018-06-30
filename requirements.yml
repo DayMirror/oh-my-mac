@@ -1,0 +1,10 @@
+---
+- src: git@github.com:DayMirror/ansible-role-setup-dotfiles.git
+  name: setup-dotfiles
+- src: git@github.com:DayMirror/ansible-role-install-nodes.git
+  name: install-nodes
+- src: git@github.com:DayMirror/ansible-role-install-crates.git
+  name: install-crates
+- src: git@github.com:DayMirror/ansible-role-install-gems.git
+  name: install-gems
+...
