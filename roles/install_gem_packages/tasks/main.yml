@@ -1,8 +1,0 @@
----
-- name: "Installing gem {{ item }}"
-  gem:
-   name: {{ item }}
-   state: latest
-  with_items:
-   - ghost # simplifies management of /etc/hosts file
-...
