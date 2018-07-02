@@ -47,7 +47,7 @@ brews:
   - docker
   - mono # mono runtime support (c#)
 casks:
-  - java
+  - java8
   - font-inconsolatago-nerd-font # patched font
   - iterm2
   - oni # new editor aiming to take the best from vim and vscode
