@@ -4,6 +4,7 @@ taps:
   - homebrew/cask
   - thoughtbot/formulae # rcm
   - homebrew/cask-fonts # powerline and nerd fonts
+  - homebrew/cask-versions # install alternate versions of packages
   - wooga/unityversions # unity
 brews:
   - git
@@ -33,13 +34,11 @@ brews:
   - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
   - reattach-to-user-namespace # enables pbcopy and pbpaste in tmux
   - gpg2
-  - font
   - node
   - ruby
   - rust
   - groovy
   - python@2
-  - java
   - cmake
   - ant
   - maven
@@ -48,6 +47,7 @@ brews:
   - docker
   - mono # mono runtime support (c#)
 casks:
+  - java
   - font-inconsolatago-nerd-font # patched font
   - iterm2
   - oni # new editor aiming to take the best from vim and vscode
