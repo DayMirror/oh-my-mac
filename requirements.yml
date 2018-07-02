@@ -3,8 +3,8 @@
   src: https://github.com/DayMirror/ansible-role-setup-dotfiles.git
 - name: install-nodes
   src: https://github.com/DayMirror/ansible-role-install-nodes.git
-- name: install-crates
-  src: https://github.com/DayMirror/ansible-role-install-crates.git
+# - name: install-crates
+  # src: https://github.com/DayMirror/ansible-role-install-crates.git
 - name: install-gems
   src: https://github.com/DayMirror/ansible-role-install-gems.git
 - name: install-dmg

@@ -34,6 +34,7 @@ brews:
   - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
   - reattach-to-user-namespace # enables pbcopy and pbpaste in tmux
   - gpg2
+  - hyperfine # cli tool for benchmarking
   - node
   - ruby
   - rust
@@ -56,5 +57,5 @@ casks:
   - google-chrome
   - charles # HTTP proxy and monitor
   - android-studio
-  - unity@2018.1.0f2
+  # - unity@2018.1.0f2
 ...

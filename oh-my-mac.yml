@@ -5,7 +5,7 @@
     - install-brews
     - install-docker
     - install-nodes
-    - install-crates
+    # - install-crates
     - install-gems
     - setup-dotfiles
 ...
