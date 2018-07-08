@@ -1,12 +1,23 @@
 ---
-- name: Installing Homebrew and all necessary tools and apps
-  include_role:
-    name: geerlingguy.homebrew
-  vars:
-    homebrew_taps: "{{ taps }}"
-    homebrew_installed_packages: "{{ brews }}"
-    homebrew_cask_apps: "{{ casks }}"
-- name: Installing docker-machine
-  include_role:
-    name: giovtorres.docker-machine
+- name: "Installing homebrew taps"
+  homebrew_tap:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ taps }}"
+
+- name: "Updating homebrew"
+  homebrew:
+    update_homebrew: yes
+
+- name: "Installing homebrew packages"
+  homebrew:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ brews }}"
+
+- name: "Installing homebrew casks"
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ casks }}"
 ...
