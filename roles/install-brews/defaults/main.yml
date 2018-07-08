@@ -55,6 +55,7 @@ casks:
   - sourcetree
   - google-chrome
   - charles # HTTP proxy and monitor
+  - postman # tool for warking with web API's
   - android-studio
   - unity@2018.1.0f2
 ...
