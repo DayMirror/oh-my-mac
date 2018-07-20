@@ -47,6 +47,7 @@ brews:
   - cocoapods
   - docker
   - mono # mono runtime support (c#)
+  - mongodb # MongoDB database
 casks:
   - java8
   - font-inconsolatago-nerd-font # patched font
