@@ -33,6 +33,7 @@ brews:
   - wget
   - md5sha1sum # Package that adds commands 'md5sum' and 'sha1sum'
   - reattach-to-user-namespace # enables pbcopy and pbpaste in tmux
+  - rename # cli tool to rename multiple files
   - gpg2
   - hyperfine # cli tool for benchmarking
   - node
