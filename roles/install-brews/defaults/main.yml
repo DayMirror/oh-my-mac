@@ -60,5 +60,6 @@ casks:
   - charles # HTTP proxy and monitor
   - postman # tool for warking with web API's
   - android-studio
+  - mactex # latex editor
   # - unity@2018.1.0f2
 ...
