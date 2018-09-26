@@ -36,7 +36,7 @@ brews:
   - rename # cli tool to rename multiple files
   - gpg2
   - hyperfine # cli tool for benchmarking
-  - nvm # node version manager
+  - nodejs # tsuquyomi vim plugin doesn't work with nvm
   - ruby
   - rust
   - groovy
