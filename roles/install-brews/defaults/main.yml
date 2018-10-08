@@ -49,6 +49,7 @@ brews:
   - docker
   - mono # mono runtime support (c#)
   - mongodb # MongoDB database
+  - pup # cli html parser
 casks:
   - java8
   - font-inconsolatago-nerd-font # patched font
