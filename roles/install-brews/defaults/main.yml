@@ -50,6 +50,7 @@ brews:
   - mono # mono runtime support (c#)
   - mongodb # MongoDB database
   - pup # cli html parser
+  - imagemagick # powerful cli tool for processing images
 casks:
   - java8
   - font-inconsolatago-nerd-font # patched font
