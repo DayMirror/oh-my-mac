@@ -6,6 +6,7 @@ taps:
   - homebrew/cask-fonts # powerline and nerd fonts
   - homebrew/cask-versions # install alternate versions of packages
   - wooga/unityversions # unity
+  - browsh-org/homebrew-browsh # brow sh (cli web browser)
 brews:
   - git
   - git-extras # A pack of handful additional commands for git
@@ -51,6 +52,7 @@ brews:
   - mongodb # MongoDB database
   - pup # cli html parser
   - imagemagick # powerful cli tool for processing images
+  - browsh # cli browser
 casks:
   - java8
   - font-inconsolatago-nerd-font # patched font
