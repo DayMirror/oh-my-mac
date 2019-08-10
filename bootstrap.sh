@@ -8,3 +8,9 @@ brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebre
 
 # Installing ansible if it is not installed
 ansible || brew install ansible
+
+# Installing ansible roles
+ansible-galaxy install -r requirements.yml --force
+
+# Running ansible playbook
+ansible-playbook oh-my-mac.yml
