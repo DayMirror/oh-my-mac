@@ -1,0 +1,7 @@
+---
+- name: Generating ssh keys
+  openssh_keypair:
+    path: ~/.ssh/id_rsa
+    force: no
+    type: rsa
+    size: 2048

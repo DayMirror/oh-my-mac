@@ -13,4 +13,4 @@ ansible || brew install ansible
 ansible-galaxy install -r requirements.yml --force
 
 # Running ansible playbook
-ansible-playbook oh-my-mac.yml
+ansible-playbook mac-bootstrap.yml

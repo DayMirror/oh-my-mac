@@ -2,8 +2,8 @@
 - hosts: localhost
   connection: local
   roles:
+    - shell-setup
     - install-brews
     - install-nodes
     - install-gems
-    - setup-dotfiles
 ...
