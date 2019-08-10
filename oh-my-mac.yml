@@ -3,9 +3,7 @@
   connection: local
   roles:
     - install-brews
-    - install-docker
     - install-nodes
-    # - install-crates
     - install-gems
     - setup-dotfiles
 ...

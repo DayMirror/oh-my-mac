@@ -66,4 +66,5 @@ casks:
   - android-studio
   - mactex # latex editor
   - rider
+  - docker
 ...

@@ -1,8 +1,0 @@
----
-- name: "Installing Docker-for-Mac"
-  include_role:
-    name: install-dmg
-  vars:
-    app_name: Docker
-    app_dmg_url: https://download.docker.com/mac/stable/Docker.dmg
-...

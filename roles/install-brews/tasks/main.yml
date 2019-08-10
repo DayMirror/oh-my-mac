@@ -1,28 +1,32 @@
 ---
-- name: "Installing java"
-  homebrew_cask:
-    name: java
-    state: present
-
 - name: "Installing homebrew taps"
   homebrew_tap:
     name: "{{ item }}"
     state: present
   with_items: "{{ taps }}"
 
+- name: "Installing java"
+  homebrew_cask:
+    name: java
+    state: present
+  register: result
+
 - name: "Updating homebrew"
   homebrew:
     update_homebrew: yes
+  changed_when: no
 
 - name: "Installing homebrew packages"
   homebrew:
-    name: "{{ item }}"
+    name: "{{ brews }}"
     state: present
-  with_items: "{{ brews }}"
 
 - name: "Installing homebrew casks"
   homebrew_cask:
     name: "{{ item }}"
     state: present
-  with_items: "{{ casks }}"
-...
+  loop: "{{ casks }}"
+  register: result
+  failed_when:
+    - result.failed
+    - not(result.msg is search("It seems there is already an App at"))
