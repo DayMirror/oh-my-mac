@@ -65,4 +65,5 @@ casks:
   - unity-hub
   - android-studio
   - mactex # latex editor
+  - rider
 ...
