@@ -1,6 +1,6 @@
 ---
 - name: "Installing java"
-  homebrew:
+  homebrew_cask:
     name: java
     state: present
 
