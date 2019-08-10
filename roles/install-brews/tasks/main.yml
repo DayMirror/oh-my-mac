@@ -1,4 +1,9 @@
 ---
+- name: "Installing java"
+  homebrew:
+    name: java
+    state: present
+
 - name: "Installing homebrew taps"
   homebrew_tap:
     name: "{{ item }}"
