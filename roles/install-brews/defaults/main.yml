@@ -67,4 +67,5 @@ casks:
   - mactex # latex editor
   - rider
   - docker
+  - dotnet
 ...
