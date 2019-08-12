@@ -53,6 +53,7 @@ brews:
   - pup # cli html parser
   - imagemagick # powerful cli tool for processing images
   - browsh # cli browser
+  - iproute2mac # adds ip command
 casks:
   - font-inconsolatago-nerd-font # patched font
   - iterm2
