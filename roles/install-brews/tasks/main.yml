@@ -30,3 +30,16 @@
   failed_when:
     - result.failed
     - not(result.msg is search("It seems there is already an App at"))
+
+- name: "Downloading android ndk for Unity (r16b 64-bit)"
+  get_url:
+    url: https://dl.google.com/android/repository/android-ndk-r16b-darwin-x86_64.zip
+    checksum: sha1:e51e615449b98c716cf912057e2682e75d55e2de
+    dest: ~/Downloads/ndk.zip
+
+- name: "Unzipping android ndk"
+  unarchive:
+    src: ~/Downloads/ndk.zip
+    remote_src: yes
+    dest: ~/Library/Android
+...
