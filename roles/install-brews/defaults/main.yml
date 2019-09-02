@@ -7,6 +7,7 @@ taps:
   - homebrew/cask-versions # install alternate versions of packages
   - wooga/unityversions # unity
   - browsh-org/homebrew-browsh # brow sh (cli web browser)
+  - AdoptOpenJDK/openjdk
 brews:
   - git
   - git-extras # A pack of handful additional commands for git
