@@ -19,7 +19,6 @@ brews:
   - htop # An interactive process viewer for Unix, better than top
   - ranger # Console file manager with Vi key bindings
   - zsh
-  - zplug # plugins manager for zsh
   - rmtrash # Command-line tool to move files and folders to trash
   - neovim # Vim with async plugins execution
   - macvim # vim for mac
