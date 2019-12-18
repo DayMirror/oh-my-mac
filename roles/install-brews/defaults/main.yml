@@ -69,4 +69,5 @@ casks:
   - rider
   - docker
   - dotnet
+  - anaconda # popular data science and machine learning set of tools
 ...
