@@ -54,6 +54,7 @@ brews:
   - imagemagick # powerful cli tool for processing images
   - browsh # cli browser
   - iproute2mac # adds ip command
+  - awscli # cli for aws version 2
 casks:
   - font-inconsolatago-nerd-font # patched font
   - iterm2
