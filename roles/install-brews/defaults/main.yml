@@ -55,6 +55,7 @@ brews:
   - browsh # cli browser
   - iproute2mac # adds ip command
   - awscli # cli for aws version 2
+  - httpie # user-friendly command-line HTTP client for the API era (http command)
 casks:
   - font-inconsolatago-nerd-font # patched font
   - iterm2
