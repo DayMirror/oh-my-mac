@@ -56,6 +56,9 @@ brews:
   - iproute2mac # adds ip command
   - awscli # cli for aws version 2
   - httpie # user-friendly command-line HTTP client for the API era (http command)
+  - kubernetes-cli
+  - helm # kubernetes helm
+  - minikube # kubernetes minikube
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
