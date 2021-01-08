@@ -25,7 +25,8 @@ brews:
   - macvim # vim for mac
   - rcm # Dotfiles management tool from Thoughtbot
   - direnv # Tool for autoloading environment variables when cd'ing into a folder
-  - jq # Command-line JSON parser
+  - jq # Command-line JSON parser and processor
+  - yq # Command-line YAML parser and processor
   - tree # Tool able to show directory tree structure in the shell
   - ssh-copy-id
   - fd # simpler and faster alternative to find command
