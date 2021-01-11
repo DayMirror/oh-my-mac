@@ -61,6 +61,7 @@ brews:
   - kubectx # kubectx and kubens tools to easily change cluster and namespace
   - helm # kubernetes helm
   - minikube # kubernetes minikube
+  - watch # run command repeatedly
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
