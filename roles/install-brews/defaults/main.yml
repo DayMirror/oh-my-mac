@@ -62,6 +62,7 @@ brews:
   - helm # kubernetes helm
   - minikube # kubernetes minikube
   - watch # run command repeatedly
+  - golang # go language
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
