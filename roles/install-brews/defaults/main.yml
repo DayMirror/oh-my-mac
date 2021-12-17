@@ -51,6 +51,7 @@ brews:
   - docker
   - mono # mono runtime support (c#)
   - mongodb # MongoDB database
+  - mongosh # MongoDB shell
   - pup # cli html parser
   - imagemagick # powerful cli tool for processing images
   - browsh # cli browser
