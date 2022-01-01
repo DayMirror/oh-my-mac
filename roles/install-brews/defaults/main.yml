@@ -8,6 +8,7 @@ taps:
   - wooga/unityversions # unity
   - browsh-org/homebrew-browsh # brow sh (cli web browser)
   - AdoptOpenJDK/openjdk
+  - mongodb/brew
 brews:
   - git
   - git-extras # A pack of handful additional commands for git
@@ -52,6 +53,7 @@ brews:
   - mono # mono runtime support (c#)
   - mongodb # MongoDB database
   - mongosh # MongoDB shell
+  - mongodb-database-tools # MongoDB tools like mongodump, mongorestore, etc.
   - pup # cli html parser
   - imagemagick # powerful cli tool for processing images
   - browsh # cli browser
