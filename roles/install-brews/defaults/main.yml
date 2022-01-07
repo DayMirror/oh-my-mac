@@ -66,6 +66,7 @@ brews:
   - minikube # kubernetes minikube
   - watch # run command repeatedly
   - golang # go language
+  - composer # dependency manager for php
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
