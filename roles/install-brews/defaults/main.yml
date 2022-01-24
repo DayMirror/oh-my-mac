@@ -67,6 +67,7 @@ brews:
   - watch # run command repeatedly
   - golang # go language
   - composer # dependency manager for php
+  - kafka
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
