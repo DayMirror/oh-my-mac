@@ -87,4 +87,6 @@ casks:
   - anaconda # popular data science and machine learning set of tools
   - graphql-playground # more powerful than GraphiQl for development
   - google-cloud-sdk # google cloud cli tool
+  - robo-3t # mongodb management tool
+  - lens # kubernetes management dashboard
 ...
