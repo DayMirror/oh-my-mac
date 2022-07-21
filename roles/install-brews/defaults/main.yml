@@ -9,6 +9,7 @@ taps:
   - browsh-org/homebrew-browsh # brow sh (cli web browser)
   - AdoptOpenJDK/openjdk
   - mongodb/brew
+  - weaveworks/tap # used to install eksctl
 brews:
   - git
   - git-extras # A pack of handful additional commands for git
@@ -43,7 +44,7 @@ brews:
   - ruby
   - rust
   - groovy
-  - python@2
+  - pyenv # python version manager
   - cmake
   - ant
   - maven
@@ -68,6 +69,7 @@ brews:
   - golang # go language
   - composer # dependency manager for php
   - kafka
+  - eksctl # EKS control utility
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
