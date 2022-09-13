@@ -70,6 +70,7 @@ brews:
   - composer # dependency manager for php
   - kafka
   - eksctl # EKS control utility
+  - redis
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
