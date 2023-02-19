@@ -61,7 +61,7 @@ brews:
   - iproute2mac # adds ip command
   - awscli # cli for aws version 2
   - httpie # user-friendly command-line HTTP client for the API era (http command)
-  - kubernetes-cli
+  - kubernetes-cli # kubectl
   - kubectx # kubectx and kubens tools to easily change cluster and namespace
   - helm # kubernetes helm
   - minikube # kubernetes minikube
@@ -71,6 +71,7 @@ brews:
   - kafka
   - eksctl # EKS control utility
   - redis
+  - poetry # python 3 package manager
 casks:
   - gimp
   - font-inconsolatago-nerd-font # patched font
