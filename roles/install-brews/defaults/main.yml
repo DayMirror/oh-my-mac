@@ -52,7 +52,7 @@ brews:
   - cocoapods
   - docker
   - mono # mono runtime support (c#)
-  - mongodb # MongoDB database
+  - mongodb-community # mongodb, mongosh and tools
   - mongosh # MongoDB shell
   - mongodb-database-tools # MongoDB tools like mongodump, mongorestore, etc.
   - pup # cli html parser
