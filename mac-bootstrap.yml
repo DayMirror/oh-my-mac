@@ -3,7 +3,7 @@
   connection: local
   roles:
     - shell-setup
+    - install-sdkman
     - install-brews
     - install-nodes
-    - install-gems
 ...

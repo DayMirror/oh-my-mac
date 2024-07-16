@@ -1,16 +1,12 @@
 ---
 taps:
-  - homebrew/core
-  - homebrew/cask
   - thoughtbot/formulae # rcm
-  - homebrew/cask-fonts # powerline and nerd fonts
-  - homebrew/cask-versions # install alternate versions of packages
-  - wooga/unityversions # unity
   - browsh-org/homebrew-browsh # brow sh (cli web browser)
   - AdoptOpenJDK/openjdk
   - mongodb/brew
   - weaveworks/tap # used to install eksctl
 brews:
+  - python
   - git
   - git-extras # A pack of handful additional commands for git
   - tig # NCurses-based text-mode interface for git
@@ -22,7 +18,7 @@ brews:
   - htop # An interactive process viewer for Unix, better than top
   - ranger # Console file manager with Vi key bindings
   - zsh
-  - rmtrash # Command-line tool to move files and folders to trash
+  - trash # Command-line tool to move files and folders to trash
   - neovim # Vim with async plugins execution
   - macvim # vim for mac
   - rcm # Dotfiles management tool from Thoughtbot
@@ -43,12 +39,8 @@ brews:
   - nodejs # tsuquyomi vim plugin doesn't work with nvm
   - ruby
   - rust
-  - groovy
   - pyenv # python version manager
   - cmake
-  - ant
-  - maven
-  - gradle
   - cocoapods
   - docker
   - mono # mono runtime support (c#)
@@ -63,34 +55,33 @@ brews:
   - httpie # user-friendly command-line HTTP client for the API era (http command)
   - kubernetes-cli # kubectl
   - kubectx # kubectx and kubens tools to easily change cluster and namespace
+  - k9s # kubernetes cli ui
   - helm # kubernetes helm
   - minikube # kubernetes minikube
   - watch # run command repeatedly
   - golang # go language
   - composer # dependency manager for php
-  - kafka
   - eksctl # EKS control utility
   - redis
   - poetry # python 3 package manager
+  - font-hack-nerd-font # nerd fonts
+  - zplug # plugin manager for zsh
+  - nvm # node version manager
 casks:
   - gimp
-  - font-inconsolatago-nerd-font # patched font
   - iterm2
-  - oni # new editor aiming to take the best from vim and vscode
   - visual-studio-code
   - sourcetree
   - google-chrome
   - charles # HTTP proxy and monitor
   - postman # tool for warking with web API's
-  - unity-hub
-  - android-studio
   - mactex # latex editor
   - rider
-  - docker
   - dotnet
   - anaconda # popular data science and machine learning set of tools
   - graphql-playground # more powerful than GraphiQl for development
   - google-cloud-sdk # google cloud cli tool
   - robo-3t # mongodb management tool
   - lens # kubernetes management dashboard
+  - rancher # alternative to docker desktop
 ...

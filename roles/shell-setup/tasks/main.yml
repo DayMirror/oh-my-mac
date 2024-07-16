@@ -1,4 +1,7 @@
 ---
+- name: Ensure .ssh folder exists
+  ansible.builtin.shell:
+    cmd: mkdir ~/.ssh || true
 - name: Generating ssh keys
   openssh_keypair:
     path: ~/.ssh/id_rsa

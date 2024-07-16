@@ -1,0 +1,17 @@
+---
+- name: Install sdkman
+  ansible.builtin.shell:
+    cmd: curl -s "https://get.sdkman.io" | bash
+- name: Install java versions 11, 17 and latest
+  ansible.builtin.shell:
+    cmd: source ~/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-zulu && sdk install java 17.0.11-zulu && sdk install java && sdk default java 17.0.11-zulu
+- name: Install groovy
+  ansible.builtin.shell:
+    cmd: source ~/.sdkman/bin/sdkman-init.sh && sdk install groovy 4.0.22 && sdk default groovy 4.0.22
+- name: Install kotlin
+  ansible.builtin.shell:
+    cmd: source ~/.sdkman/bin/sdkman-init.sh && sdk install kotlin 2.0.0 && sdk default kotlin 2.0.0
+- name: Install java tools (ant, maven, gradle)
+  ansible.builtin.shell:
+    cmd: source ~/.sdkman/bin/sdkman-init.sh && sdk install ant && sdk install maven && sdk install gradle
+
