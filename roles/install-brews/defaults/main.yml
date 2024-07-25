@@ -71,6 +71,7 @@ casks:
   - gimp
   - iterm2
   - visual-studio-code
+  - intellij-idea-ce
   - sourcetree
   - google-chrome
   - charles # HTTP proxy and monitor
@@ -82,6 +83,6 @@ casks:
   - graphql-playground # more powerful than GraphiQl for development
   - google-cloud-sdk # google cloud cli tool
   - robo-3t # mongodb management tool
-  - lens # kubernetes management dashboard
+  - openlens # kubernetes management dashboard
   - rancher # alternative to docker desktop
 ...
