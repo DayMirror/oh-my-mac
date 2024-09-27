@@ -6,7 +6,7 @@ taps:
   - mongodb/brew
   - weaveworks/tap # used to install eksctl
 brews:
-  - python
+  - pyenv # python version manager
   - git
   - git-extras # A pack of handful additional commands for git
   - tig # NCurses-based text-mode interface for git
@@ -39,7 +39,6 @@ brews:
   - nodejs # tsuquyomi vim plugin doesn't work with nvm
   - ruby
   - rust
-  - pyenv # python version manager
   - cmake
   - cocoapods
   - docker
