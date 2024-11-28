@@ -2,9 +2,9 @@
 - name: Ensure .ssh folder exists
   ansible.builtin.shell:
     cmd: mkdir ~/.ssh || true
-- name: Generating ssh keys
+- name: Generating ssh key
   openssh_keypair:
     path: ~/.ssh/id_rsa
     force: no
     type: rsa
-    size: 2048
+    size: 4096
