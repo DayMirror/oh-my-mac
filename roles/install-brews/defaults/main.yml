@@ -66,6 +66,8 @@ brews:
   - font-hack-nerd-font # nerd fonts
   - zplug # plugin manager for zsh
   - nvm # node version manager
+  - mitmproxy # open-source https proxy
+  - ollama
 casks:
   - gimp
   - iterm2
