@@ -86,4 +86,5 @@ casks:
   - robo-3t # mongodb management tool
   - openlens # kubernetes management dashboard
   - rancher # alternative to docker desktop
+  - msty # UI for ollama
 ...
