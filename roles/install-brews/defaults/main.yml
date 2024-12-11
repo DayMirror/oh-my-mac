@@ -68,6 +68,7 @@ brews:
   - nvm # node version manager
   - mitmproxy # open-source https proxy
   - ollama
+  - btop # cpu & more monitoring tool
 casks:
   - gimp
   - iterm2
