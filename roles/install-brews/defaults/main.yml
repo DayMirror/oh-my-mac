@@ -69,6 +69,7 @@ brews:
   - mitmproxy # open-source https proxy
   - ollama
   - btop # cpu & more monitoring tool
+  - huggingface-cli
 casks:
   - gimp
   - iterm2
@@ -81,11 +82,11 @@ casks:
   - mactex # latex editor
   - rider
   - dotnet
-  - anaconda # popular data science and machine learning set of tools
   - graphql-playground # more powerful than GraphiQl for development
   - google-cloud-sdk # google cloud cli tool
   - robo-3t # mongodb management tool
   - openlens # kubernetes management dashboard
   - rancher # alternative to docker desktop
   - msty # UI for ollama
+  - warp # ai driven terminal
 ...
