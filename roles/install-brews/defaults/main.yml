@@ -5,6 +5,8 @@ taps:
   - AdoptOpenJDK/openjdk
   - mongodb/brew
   - weaveworks/tap # used to install eksctl
+  - noahgorstein/tap # for jqp
+  - josephpage/jetpack-io
 brews:
   - pyenv # python version manager
   - git
@@ -72,7 +74,11 @@ brews:
   - ollama
   - btop # cpu & more monitoring tool
   - huggingface-cli
+  - jqp
   - nushell # cool bash/zsh alternative
+  - starship # cross-shell compatible prompt
+  - carapace # multi-shell completion library
+  - devbox # isolated dev env built on top of nix
 casks:
   - gimp
   - iterm2
